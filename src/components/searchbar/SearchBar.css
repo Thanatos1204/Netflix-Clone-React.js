@@ -1,0 +1,20 @@
+.input-wrapper{
+    background-color: rgba(20,20,20,0.7);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+.search-bar{
+    background-color: transparent;
+    border: none;    
+    color: white;
+    font-size: 1.25rem;
+    padding-left: 10px;
+    padding-right:10px;
+    
+}
+
+.search-bar:focus{
+    outline: none;
+}

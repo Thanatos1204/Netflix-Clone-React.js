@@ -1,0 +1,68 @@
+nav{
+    background-color: transparent;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    font-size: 1rem;
+}
+
+section{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.nav-left{
+    display: flex;
+    width: 85%;    
+}
+
+.nav-logo{
+    height: 2.8rem;
+}
+
+.nav-links{
+    margin-left: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    transition: ease-in-out 0.4s;
+}
+
+.nav-links a:hover{
+    color: #818181;
+}
+
+.nav-right{    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;    
+}
+
+.nav-right >p{
+    font-size: 1.1rem;
+}
+
+.search-button{
+    position: relative;
+    background: none;
+    color: white;    
+    border: none;
+}
+
+
+
+
